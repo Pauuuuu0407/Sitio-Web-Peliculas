@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/fondo.png");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 10px;
+    transition: .4s;
+}
+
+nav ul button{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    background: transparent;
+    padding: 8px 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: .4s;
+}
+nav ul button:hover{
+    background: white;
+    color: rgb(219, 207, 207);
+    border-bottom: 1px solid white;
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid white;
+}
+
+#hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+
+#hero h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#hero button{
+    padding: 10px 30px;
+    background: transparent;
+    color: #fffdfd;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 1px solid white(248, 248, 248);
+    font-weight: 700;
+    margin-top: 200px;
+    cursor: pointer;
+    border-bottom: 1px solid purple;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#series{
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    padding: 120px 0%;
+    text-align: center;
+    color: #fffdfd;
+}
+
+#series h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#series p{
+    font-size: 22px;
+    color: #fffdfd;
+}
+
+#series .fila{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+
+#series article{
+    position: relative;
+}
+
+#series article img{
+    transition: .4s;
+    width: 200px;
+    height: 300px;
+}
+
+#series article img:hover{
+    transform: scale(1.1) rotate(-360deg);
+    border-radius: 50%;
+}
+
+#series article h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 110px;
+    text-align: center;
+    width: 100%;
+}
+
+
+#peliculas{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background: #000;
+    background-size: cover;
+}
+
+#peliculas h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#peliculas .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#peliculas article{
+    margin: 30px 120px;
+}
+
+#peliculas article img{
+    transition: .4s;
+    width: 180px;
+    height: 240px;
+}
+
+#peliculas h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+#peliculas article img:hover{
+    transform: scale(1.1) rotate(-360deg);
+    border-radius: 50%;
+}
+
+#trailer{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background: black;
+    background-size: cover;
+}
+
+#trailer h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#trailer .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#trailer article{
+    margin: 30px 120px;
+}
+
+#categorias{
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    color: #fffdfd; 
+    text-align: center;
+}
+
+#categorias h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#categorias .fila{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    
+}
+
+#categorias h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.carousel {
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    padding: 20px;
+}
+
+.carousel article {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+}
+
+.carousel article img {
+    width: 95%;
+    border-radius: 5px;
+}
+
+.carousel article p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#milista{
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    color: #fffdfd; 
+    text-align: center;
+}
+
+#milista h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#milista .fila{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+#registro{
+    width: 100%;
+    background: black;
+    color: #f7f0f0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#registro h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#registro p{
+    font-size: 22px;
+}
+
+#registro form{
+    width: 800px;
+    margin: 40px auto;
+}
+
+form .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+#registro input{
+    width: 42%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+    border-color: rgb(137, 12, 240);
+}
+
+#registro select{
+    width: 47.4%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#registro button{
+    margin-top: 50px;
+    background: transparent;
+    color: rgb(255, 247, 247);
+    font-size: 22px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    border-color: purple
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    padding: 60px 0px;
+    background: purple;
+    color: white;
+    text-align: center;
+}

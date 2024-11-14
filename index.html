@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFanatic</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--Cabecera del sitio-->
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+         <ul>
+                <a href="#">Inicio</a>
+                <a href="#series">Series</a>
+                <a href="#peliculas">Peliculas</a>
+                <a href="#trailer">Trailer</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#milista">Mi Lista</a>
+                <button class="search-button" onclick="performSearch()">Buscar</button>
+            </ul>
+        </nav>
+        <div id="hero">
+            <h2></h2>
+            <button>EMPEZAR</button>
+        </div>
+    </header>
+
+    <!--Secciones principales del sitio-->
+    <main>
+       <section id="series">
+        <h2>SERIES</h2>
+        <p></p><br><br><br>
+
+        <div class="fila">
+            <article>
+                <p>SABRINA<br></p>
+                <br>
+                <img src="img/imagen1.png" alt="sabrina">
+            </article>
+
+            <article>
+                <p>STRANGER THINGS<br></p>
+                <br>
+                <img src="img/imagen2.png" alt="stranger">
+            </article>
+
+            <article>
+                <p>DAHMER<br></p>
+                <br>
+                <img src="img/imagen3.png" alt="dahmer">
+            </article>
+
+            <article>
+                <p>YOU<br></p>
+                <br>
+                <img src="img/imagen4.png" alt="you">
+            </article>
+
+            <article>
+                <p>ELITE<br></p>
+                <br>
+                <img src="img/imagen5.png" alt="elite">
+            </article>
+        
+            <article>
+                <p>ACCIDENTE<br></p>
+                <br>
+                <img src="img/imagen6.png" alt="accidente">
+            </article>
+        </div>
+
+        <div class="fila">
+            <article>
+                <img src="img/serie1.png" alt="narcos">
+                <br><br>
+                <p>NARCOS<br></p>
+            </article>
+
+            <article>
+                <img src="img/serie2.png" alt="inocente">
+                <br><br>
+                <p>INOCENTE<br></p>
+            </article>
+
+            <article>
+                <img src="img/serie3.png" alt="vuelo601">
+                <br><br>
+                <p>VUELO 601<br></p>
+            </article>
+
+            <article>
+                <img src="img/serie4.png" alt="monster">
+                <br><br>
+                <p>MONSTER<br></p>
+            </article>
+
+            <article>
+                <img src="img/serie5.png" alt="grey´s">
+                <br><br>
+                <p>GREY´S ANATOMY<br></p>
+            </article>
+
+            <article>
+                <img src="img/serie6.png" alt="engaños">
+                <br><br>
+                <p>ENGAÑOS<br></p>
+            </article>
+       </section>
+
+
+       <section id="peliculas">
+        <h2>PELICULAS</h2>
+        <div class="fila">
+            <article>
+                <img src="img/imagen7.png" alt="terrifer">
+                <h3>TERRIFIER</h3>
+            </article>
+            
+            <article>
+                <img src="img/imagen8.png" alt="inexperto">
+                <h3>INEXPERTO</h3>
+            </article>
+
+            <article>
+                <img src="img/imagen9.png" alt="evil">
+                <h3>EVIL</h3>
+            </article>
+            
+            <article>
+                <img src="img/imagen10.png" alt="pretty guardian">
+                <h3>PRETTY GUARDIAN</h3>
+            </article>
+        </div>
+
+        <div class="fila">
+            <article>
+                <img src="img/imagen11.png" alt="chicas pesadas">
+                <h3>CHICAS PESADAS</h3>
+            </article>
+
+            <article>
+                <img src="img/imagen12.png" alt="fast">
+                <h3>FAST</h3>
+            </article>
+            
+            <article>
+                <img src="img/imagen13.png" alt="nimona">
+                <h3>NIMONA</h3>
+            </article>
+
+            <article>
+                <img src="img/imagen14.png" alt="holidate">
+                <h3>HOLIDATE</h3>
+            </article>
+        </div>
+       </section>
+
+       <section id="trailer">
+        <h2>TRAILER</h2>
+        <div class="fila">
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/MVvGSBKV504?si=SnehZISykTeZ85Lc" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/8ZzNqbT7h60?si=XjSzNIXXc7Zj8BZw" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/dyotdtUtKu0?si=HGR-tn3Ix5DQndeA" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/Z_T0o5uNrlY?si=fV4N8Oy5OTyAH0ew" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </div>
+
+        <div class="fila">
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/tzRisTkuLWA?si=hlMngZWl9WehPrkK" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/f97f1jEqdgE?si=43giy-fardegCWPt" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/ZFrfi7MMnb4?si=-DeLCNHAJ71gi8Jw" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <iframe width="200" height="250" src="https://www.youtube.com/embed/spAv-FNhOvA?si=HUVe8xQBIGpECjF0" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </div>
+       </section>
+       
+       <section id="categorias">
+        <h2>CATEGORIAS</h2>
+        <h3>Peliculas de comedia</h3>
+        <div class="fila">
+            <article>
+                <a href="https://www.youtube.com/watch?v=oFDLwkL54jQ&pp=ygUUZWwgc2luZGljYXRvIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/imagen15.png" alt="el sindicato">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=hdbBfoLqhc0&pp=ygURcHJvYmxlbWFzIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/imagen16.png" alt="problemas">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=UxER50XHW-I&pp=ygUeZG9uZGUgZXN0YW4gbGFzIHJ1YmlhcyB0cmFpbGVy" target="_blank">
+                <img src="img/imagen17.png" alt="las rubias">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=e01NVCveGkg&pp=ygUYc29uIGNvbW9zIG5pw7FvcyB0cmFpbGVy" target="_blank">
+                <img src="img/imagen18.png" alt="son como niños">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=UqMIgVyNQvo&pp=ygUYZmFtaWxpYSByZXZ1ZWx0YSB0cmFpbGVy" target="_blank">
+                <img src="img/imagen19.png" alt="familia revuelta">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=XO8RTGHm-0s&pp=ygUgZWwgZWplcmNpdG8gZGUgbGFkcm9vbmVzIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/img1.png" alt="el ejercito de ladrones">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=o1-o45sR29U&pp=ygUSbGF2YXBlcnJvcyB0cmFpbGVy" target="_blank">
+                <img src="img/img3.png" alt="lavaperros">
+                </a>
+            </article>
+        </div>
+
+        <h3>Peliculas de terror</h3>
+        <div class="fila">
+            <article>
+                <a href="https://www.youtube.com/watch?v=ek1ePFp-nBI&pp=ygUQaGFsbG93ZW4gdHJhaWxlcg%3D%3D" target="_blank">
+                <img src="img/img6.png" alt="halloween">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=1keSRyipyac&pp=ygUVdmllcm5lcyBuZWdybyB0cmFpbGVy" target="_blank">
+                <img src="img/img7.png" alt="viernes negro">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=BU2eYAO31Cc&pp=ygUVdGhlIGV4b3JjaXNtIHRyYWlsZXIg" target="_blank">
+                <img src="img/img8.png" alt="the exorcist">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=8kmLHwKH31M&pp=ygURYW5hYmVsbGUgdHJhaWxlciA%3D" target="_blank">
+                <img src="img/img9.png" alt="anabelle">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=e_6JPqOCH3c&pp=ygUObWVnYW4gdHJhaWxlciA%3D" target="_blank">
+                <img src="img/img10.png" alt="megan">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=FRffQncR1HQ&pp=ygUfZml2ZSBuaWdodHMgYXQgZnJlZGR5J3MgdHJhaWxlcg%3D%3D" target="_blank">
+                <img src="img/img12.png" alt="freddy`s">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=5y-1yhpfMb0&pp=ygUad2lubmllIHBvb2ggdGVycm9yIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/img13.png" alt="winnie">
+                </a>
+            </article>
+        </div>
+
+        <h3>Peliculas de romance </h3>
+        <div class="fila">
+            <article>
+                <a href="https://www.youtube.com/watch?v=2PWXrxHmKYw" target="_blank">
+                <img src="img/img14.png" alt="amor de medianoche">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=bVjSl_AGSPQ" target="_blank">
+                <img src="img/img16.png" alt="after">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=Z0wqDjH1heU" target="_blank">
+                <img src="img/img17.png" alt="first love">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=3gAKmD51ML4" target="_blank">
+                <img src="img/img18.png" alt="lara jean">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=9Lt8QAZkc94" target="_blank">
+                <img src="img/img19.png" alt="bajo la misma estrella">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=tA_qMdzvCvk" target="_blank">
+                <img src="img/img20.png" alt="titanic">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=vWhX8aTj5TI" target="_blank">
+                <img src="img/img21.png" alt="a dos metros de ti">
+                </a>
+            </article>
+        </div>
+
+        <h3>Peliculas animadas</h3>
+        <div class="fila">
+            <article>
+                <a href="https://www.youtube.com/watch?v=5agfN_13crk&pp=ygUNcmFscGggdHJhaWxlcg%3D%3D" target="_blank">
+                <img src="img/imag3.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=qS7sLo_iEmw&pp=ygUTbW9uc3RlciBpbmMgdHJhaWxlcg%3D%3D" target="_blank">
+                <img src="img/imag4.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=JvIvF8ST8CY&pp=ygUbZWwgbGlicm8gZGUgbGEgdmlkYSB0cmFpbGVy" target="_blank">
+                <img src="img/imag5.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=xiC2iXTXHxw&pp=ygUXaW50ZW5zYW1lbmd0ZSAyIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/imag6.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=idc0EOmKr30&pp=ygUUaG9jdXMgcG9jdXMyIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/imag7.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=tiBLMO60xnc&pp=ygURZW5jYW50YWRhIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/imag8.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=P8lfdvXkhu0&pp=ygUcZWwgbXVuZG8gZGUgY2Fyb2xpbmUgdHJhaWxlcg%3D%3D" target="_blank">
+                <img src="img/imag9.png">
+                </a>
+            </article>
+        </div>
+
+        <h3>Peliculas navideñas</h3>
+        <div class="fila">
+            <article>
+                <a href="https://www.youtube.com/watch?v=4nXRb-1-n60&pp=ygUUc29sbyBlbiBjYXNhIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/Group 1.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=N2lzGmhf0yY" target="_blank">
+                <img src="img/Group 2.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=vI19gW8H04Q&pp=ygUaYW5nZWxhJ3MgY2hyaXN0bWFzIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/Group 4.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=SAEZSwjh27k&pp=ygUaY3VlbnRvIGRlIG5hdmlkYWQgIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/Group 5.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=e4bdD8owgDU&pp=ygUjZWwgb3JpZ2VuIGRlIGxvcyBndWFyZGlhbmVzIHRyYWlsZXI%3D" target="_blank">
+                <img src="img/Group 6.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=YaeDa_Uempk&pp=ygUddHJhaWxlciBjaHJpc3RpbWFzIGNocm9uaWNsZXM%3D" target="_blank">
+                <img src="img/Group 8.png">
+                </a>
+            </article>
+
+            <article>
+                <a href="https://www.youtube.com/watch?v=uBcHw3427s0&pp=ygUYdHJhaWxlciBhcnRodXIgY2hyaXN0bWFz" target="_blank">
+                <img src="img/Group 9.png">
+                </a>
+            </article>
+        </div>
+       </section>
+
+       <section id="milista">
+        <br><br><br>
+        <h2>Mi Lista</h2>
+        <div class="carousel">
+            <article>
+                <a href="https://www.youtube.com/watch?v=bqd702kNnRk&pp=ygUTZmFtaWx5IHBhY2sgbmV0ZmxpeA%3D%3D" target="_blank">
+                <img src="img/lista.png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=HREn8iMT2vo&pp=ygUOc2luZyAyIG5ldGZsaXg%3D" target="_blank">
+                <img src="img/lista2.png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=wuXjTZjYZQY&pp=ygUNdmVub20gbmV0ZmxpeA%3D%3D" target="_blank">
+                <img src="img/lista3.png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=lTu7j2GOGwQ&pp=ygUVbG9uZWx5IHBsYW5ldCBuZXRmbGl4" target="_blank">
+                <img src="img/lista4.png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=oNo4cAITTfQ&pp=ygUcc3dlZXQgYm9iYnkgbmV0ZmxpeCB0cmFpbGVyIA%3D%3D" target="_blank">
+                <img src="img/lista5.png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=ta3aqgNIkzY&pp=ygUmbG9zIGhlcm1hbm9zIG1lbmVuZGV6IHRyYWlsZXIgbmV0ZmxpeCA%3D" target="_blank">
+                <img src="img/lista6.png">           
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=YjTZMEbpKsc&pp=ygUaZG9udCBtb3ZlIHRyYWlsZXIgbmV0ZmxpeCA%3D" target="_blank">
+                <img src="img/lista7.png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=ODUdpwddTQk&pp=ygUid29tYW4gb2YgdGhlIG5pZ2h0IHRyYWlsZXIgbmV0ZmxpeA%3D%3D" target="_blank">
+                <img src="img/lista8 (1).png">
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=mCRvLA-9XQ8&pp=ygUda3VuZyBmdSBwYW5kYSB0cmFpbGVyIG5ldGZsaXg%3D" target="_blank">
+                <img src="img/lista9.png"> 
+                </a>
+            </article>
+            <article>
+                <a href="https://www.youtube.com/watch?v=eC0npETF4PY&pp=ygUaZnVsbCBzd2luZyB0cmFpbGVyIG5ldGZsaXg%3D" target="_blank">
+                <img src="img/lista10.png">
+            </a>
+            </article>
+        </div>
+    </section>
+
+
+       <section id="registro">
+        <h2>REGISTRO</h2>
+            <form id="registrationForm" onsubmit="return validateForm()">
+                <div class="fila">
+                    <input type="text"  name="username" required minlength="3" placeholder="Usuario">
+                    <input type="email" ame="email" required placeholder="Correo electrónico">
+                </div>
+                <div class="fila">
+                    <input type="password" name="password" required minlength="6" placeholder="Contraseña" id="register-password" required><br><br>
+                </div>
+                    <button>REGISTRAR</button>
+            </form>
+                <p>¿Ya tienes una cuenta? 
+                <a href="#" onclick="toggleForm()">Inicia sesión aquí</a>  
+                </p>  
+       </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p>       
+            © 2024 FilmFanatic, Todos los derechos reservados<br>
+            <br> 
+            PAULA RODRIGUEZ
+        </p>
+    </footer>
+
+</body>
+</html>
